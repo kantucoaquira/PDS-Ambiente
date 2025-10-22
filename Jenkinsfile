@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: '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', url: 'https://github.com/Patricia-Apaza/ExamII-PD-Desarrollo.git'
+                    git branch: 'main', credentialsId: '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', url: 'https://github.com/kantucoaquira/PDS-Ambiente.git'
                 }
             }
         }
